@@ -1,27 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
-
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background-color: #ff00c5;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg stroke='%23000000' stroke-width='66.7' stroke-opacity='0.05' %3E%3Ccircle fill='%23FF00C5' cx='0' cy='0' r='1800'/%3E%3Ccircle fill='%23ed12bb' cx='0' cy='0' r='1700'/%3E%3Ccircle fill='%23db1ab1' cx='0' cy='0' r='1600'/%3E%3Ccircle fill='%23ca1fa7' cx='0' cy='0' r='1500'/%3E%3Ccircle fill='%23b9229d' cx='0' cy='0' r='1400'/%3E%3Ccircle fill='%23a82492' cx='0' cy='0' r='1300'/%3E%3Ccircle fill='%23982487' cx='0' cy='0' r='1200'/%3E%3Ccircle fill='%2388247c' cx='0' cy='0' r='1100'/%3E%3Ccircle fill='%23792371' cx='0' cy='0' r='1000'/%3E%3Ccircle fill='%236b2265' cx='0' cy='0' r='900'/%3E%3Ccircle fill='%235d205a' cx='0' cy='0' r='800'/%3E%3Ccircle fill='%234f1d4f' cx='0' cy='0' r='700'/%3E%3Ccircle fill='%23431b43' cx='0' cy='0' r='600'/%3E%3Ccircle fill='%23361838' cx='0' cy='0' r='500'/%3E%3Ccircle fill='%232b142d' cx='0' cy='0' r='400'/%3E%3Ccircle fill='%23201022' cx='0' cy='0' r='300'/%3E%3Ccircle fill='%23160917' cx='0' cy='0' r='200'/%3E%3Ccircle fill='%23070008' cx='0' cy='0' r='100'/%3E%3C/g%3E%3C/svg%3E");
+  background-attachment: fixed;
+  background-size: cover;
 }
