@@ -1,8 +1,8 @@
+import React from "react";
 import Image from "next/image";
 import image from "./assets/Financial-Management.svg";
 import { Card } from "./components";
 import { Coin } from "../coins/models/coins.models";
-
 interface Props {
   data: Coin[];
 }

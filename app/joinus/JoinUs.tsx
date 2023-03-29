@@ -1,3 +1,4 @@
+import React from "react";
 import Link from "next/link";
 import HeadingH2 from "../chooseus/components/HeadingH2";
 

@@ -1,4 +1,4 @@
-import { BiMenuAltRight } from "react-icons/bi";
+import React from "react";
 import { Chart } from "./chart";
 import ChooseUs from "./chooseus/ChooseUs";
 import { getData } from "./coins/services/coins.services";

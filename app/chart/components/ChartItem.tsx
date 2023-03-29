@@ -1,3 +1,4 @@
+import React from "react";
 import { Coin } from "@/app/coins/models/coins.models";
 import Image from "next/image";
 import { BsFillTriangleFill } from "react-icons/bs";

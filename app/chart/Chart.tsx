@@ -1,5 +1,5 @@
 "use client";
-import { useState } from "react";
+import React, { useState } from "react";
 import { Coin } from "../coins/models/coins.models";
 import { ButtonContainer, ChartItem } from "./components";
 

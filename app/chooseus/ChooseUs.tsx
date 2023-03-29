@@ -1,3 +1,4 @@
+import React from "react";
 import image from "./assets/Online Trading.png";
 import { Card } from "./components";
 import Image from "next/image";
