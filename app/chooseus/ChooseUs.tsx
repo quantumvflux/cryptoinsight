@@ -1,10 +1,11 @@
 import image from "./assets/Online Trading.png";
-import { RiCoinLine, RiWallet3Line } from "react-icons/ri";
 import { Card } from "./components";
-import { GiWoodFrame } from "react-icons/gi";
-import { HiOutlineUsers } from "react-icons/hi";
 import Image from "next/image";
 import HeadingH2 from "./components/HeadingH2";
+import { AiOutlineLock, AiOutlineMobile } from "react-icons/ai";
+import { BiCoin, BiTrendingUp } from "react-icons/bi";
+import { MdSentimentVerySatisfied } from "react-icons/md";
+import { BsLightningCharge } from "react-icons/bs";
 
 const ChooseUs = () => {
   return (
@@ -16,55 +17,43 @@ const ChooseUs = () => {
       >
         <div className="flex flex-col justify-center items-center gap-4 flex-wrap">
           <Card
-            title="Connect your wallet"
-            description="CryptoInsight offers direct wallet integration into the app"
+            title="Instant Transactions"
+            description="Users can quickly transfer funds between wallets without having to wait for confirmation times."
           >
-            <RiWallet3Line className="text-8xl" />
+            <BsLightningCharge className="text-8xl" />
           </Card>
           <Card
-            title="Receive your own NFT's"
-            description="Lorem ipsum dolor sit amet"
+            title="Advanced Security Measures"
+            description="Encrypted communications and secure cold storage helps ensure that user funds remain safe from potential cyber attacks."
           >
-            <GiWoodFrame className="text-6xl" />
+            <AiOutlineLock className="text-9xl" />
           </Card>
           <Card
-            title="Choose your quantity"
-            description="Lorem ipsum dolor sit amet"
+            title="Low Fees"
+            description="users can easily send and receive funds without worrying about expensive charges eating into their balances."
           >
-            <RiCoinLine className="text-6xl" />
-          </Card>
-          <Card
-            title="Secure transactions"
-            description="with P2P technology for clean and secure transactions"
-          >
-            <HiOutlineUsers className="text-7xl w-24" />
+            <BiCoin className="text-9xl" />
           </Card>
         </div>
         <Image src={image} alt="CryptoInsight trading" className="w-96 h-80" />
         <div className="flex flex-col justify-center items-center gap-4 flex-wrap">
           <Card
-            title="Connect your wallet"
-            description="CryptoInsight offers direct wallet integration into the app"
+            title="Mobile Compatibility"
+            description="users can access their accounts and manage their crypto investments on-the-go from their smartphones and tablets."
           >
-            <RiWallet3Line className="text-8xl" />
+            <AiOutlineMobile className="text-9xl" />
           </Card>
           <Card
-            title="Receive your own NFT's"
-            description="Lorem ipsum dolor sit amet"
+            title="Real-Time Market Data"
+            description="Our service allow to stay up-to-date on the latest price movements and trends in the crypto markets, helping users make informed investment decisions."
           >
-            <GiWoodFrame className="text-6xl" />
+            <BiTrendingUp className="text-9xl" />
           </Card>
           <Card
-            title="Choose your quantity"
-            description="Lorem ipsum dolor sit amet"
+            title="User-Friendly Interface"
+            description="To make it easy for users to navigate the platform, manage their accounts, and execute trades, even if they are new to crypto investing."
           >
-            <RiCoinLine className="text-6xl" />
-          </Card>
-          <Card
-            title="Secure transactions"
-            description="with P2P technology for clean and secure transactions"
-          >
-            <HiOutlineUsers className="text-7xl w-24" />
+            <MdSentimentVerySatisfied className="text-8xl" />
           </Card>
         </div>
       </section>
