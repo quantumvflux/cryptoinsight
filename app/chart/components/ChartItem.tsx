@@ -26,7 +26,9 @@ const ChartItem = ({ data }: Props) => {
                 : "text-red-500 rotate-180  text-sm"
             }
           />
-          <p>{data.price_change_percentage_24h.toString().slice(0, 4)}%</p>
+          <p className="w-16">
+            {data.price_change_percentage_24h.toString().slice(0, 4)}%
+          </p>
         </div>
       </li>
     </ul>

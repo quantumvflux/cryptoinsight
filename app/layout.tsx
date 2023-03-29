@@ -1,4 +1,4 @@
-import Link from "next/link";
+import { NavBar } from "./components";
 import "./globals.css";
 
 export const metadata = {
@@ -14,23 +14,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="font-lato">
-        <nav className="flex justify-between font-semibold text-lg items-center px-8 md:px-32 lg:px-64 h-16 backdrop-blur-sm bg-transparent shadow-md text-white bg-gray-900 fixed w-screen z-30">
-          <h1 className="text-md md:text-xl">
-            <span className="font-normal">Crypto</span>
-            <span className="font-bold">Insight</span>
-          </h1>
-          <ul className="flex gap-4">
-            <li>
-              <Link href="/">Home</Link>
-            </li>
-            <li>
-              <Link href="/">Chart</Link>
-            </li>
-            <li>
-              <Link href="/">Lorem Ipsum</Link>
-            </li>
-          </ul>
-        </nav>
+        <NavBar />
         {children}
       </body>
     </html>

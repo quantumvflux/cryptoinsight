@@ -1,14 +1,21 @@
+import { BiMenuAltRight } from "react-icons/bi";
 import { Chart } from "./chart";
-import { Home } from "./home";
+import ChooseUs from "./chooseus/ChooseUs";
 import { getData } from "./coins/services/coins.services";
+import Footer from "./footer/Footer";
+import { Home } from "./home";
+import JoinUs from "./joinus/JoinUs";
 
 const page = async () => {
   const data = await getData();
-  const coins = data.slice(0, 20);
+
   return (
     <div>
-      <Home data={coins} />
-      <Chart data={coins} />
+      <Home data={data} />
+      <Chart data={data} />
+      <ChooseUs />
+      <JoinUs />
+      <Footer />
     </div>
   );
 };
