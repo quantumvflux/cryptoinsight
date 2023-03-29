@@ -1,4 +1,7 @@
 {
+  "settings": {
+    "@next/next/no-html-link-for-pages": ["error", "/app"]
+  },
   "extends": ["next/core-web-vitals", "plugin:prettier/recommended"],
   "parser": "@typescript-eslint/parser",
   "plugins": ["react", "@typescript-eslint", "prettier"],
