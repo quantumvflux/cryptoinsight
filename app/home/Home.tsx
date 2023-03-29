@@ -1,13 +1,8 @@
 import Image from "next/image";
 import image from "./assets/Financial-Management.svg";
-import {
-  BsCurrencyBitcoin,
-  FaEthereum,
-  SiTether,
-  SiDogecoin,
-} from "react-icons/all";
 import { Card } from "./components";
 import { Coin } from "../coins/models/coins.models";
+import { motion } from "framer-motion";
 
 interface Props {
   data: Coin[];

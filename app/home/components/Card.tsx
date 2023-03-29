@@ -6,7 +6,7 @@ interface Props {
 
 const Card = ({ name, price, children }: Props) => {
   return (
-    <li className="bg-purple-600 w-20 p-2 flex flex-col justify-center items-center rounded-lg">
+    <li className="bg-gradient-to-r from-rose-700 to-pink-600 w-20 p-2 flex flex-col justify-center items-center rounded-lg">
       {children}
       <span>{name}</span>
       <span className="text-lg">${price}</span>
